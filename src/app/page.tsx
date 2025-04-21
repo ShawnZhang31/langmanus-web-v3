@@ -57,11 +57,10 @@ export default function HomePage() {
           {messages.length === 0 && (
             <div className="flex w-[640px] translate-y-[-32px] flex-col">
               <h3 className="mb-2 text-center text-3xl font-medium">
-                👋 Hello, there!
+                👋 Hello, Manus!
               </h3>
               <div className="px-4 text-center text-lg text-gray-400">
-                LangManus, built on cutting-edge language models, helps you
-                search on web, browse information, and handle complex tasks.
+              基于开源LangManus，由聚智GraphServer构建、运行，可帮助您在网络上搜索、浏览信息和处理复杂的任务.
               </div>
             </div>
           )}

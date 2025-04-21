@@ -87,7 +87,7 @@ export function InputBox({
             "m-0 w-full resize-none border-none px-4 py-3 text-lg",
             size === "large" ? "min-h-32" : "min-h-4",
           )}
-          placeholder="What can I do for you?"
+          placeholder="我能为你做些什么?"
           value={message}
           onCompositionStart={() => setImeStatus("active")}
           onCompositionEnd={() => setImeStatus("inactive")}
